@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "test/geometry"
+import (
+    "fmt"
+    "test/geometry"
+)
 
 func main() {
     x, y := 10, 12

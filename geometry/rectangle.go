@@ -1,6 +1,8 @@
 package geometry
 
-import "math"
+import (
+    "math"
+)
 
 func Rectangle(x, y int) (area, perimeter int, diagonal float64) {
     area = x*y
